@@ -57,7 +57,7 @@ async def restart(client, m: Message):
     await jmthon.edit("7")
     await jmthon.edit("8")
     await jmthon.edit("9")
-    await jmthon.edit("**تم اعادة تشغيل سورس جمثون ميوزك بنجاح ✓**")
+    await jmthon.edit("**تم اعادة تشغيل سورس  ميوزك بنجاح ✓**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 
@@ -78,7 +78,7 @@ async def help(client, m: Message):
 
 • {HNDLR}بنك - لعرض سرعه النت للبوت
 
-• {HNDLR}الاوامر - لعرض اوامر سورس ميوزك جمثون
+• {HNDLR}الاوامر - لعرض اوامر سورس 
 
 - أوامر المشرفين  : 
 • {HNDLR}استئناف - لمواصلة تشغيل المقطع الصوتي أو الفيديو المتوقف
@@ -92,7 +92,7 @@ async def help(client, m: Message):
     await m.reply(HEPZ)
 
 
-@Client.on_message(filters.command(["السورس"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["jij8988888"], prefixes=f"{HNDLR}"))
 async def repo(client, m: Message):
     await m.delete()
     REPZ = f"""
